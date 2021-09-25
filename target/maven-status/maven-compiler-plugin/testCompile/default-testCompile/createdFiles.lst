@@ -1,0 +1,9 @@
+com\nopcommerce\utilities\Readconfig.class
+com\nopcommerce\pageObjects\AddCustomer.class
+com\nopcommerce\pageObjects\LoginPage.class
+com\nopcommerce\utilities\ExcelUtil.class
+com\nopcommerce\testCases\BaseClass.class
+com\nopcommerce\testCases\TC001_LoginTest.class
+com\nopcommerce\utilities\Listeners.class
+com\nopcommerce\testCases\TC002_Login_DDT.class
+com\nopcommerce\testCases\TC003_AddNewCustomer.class

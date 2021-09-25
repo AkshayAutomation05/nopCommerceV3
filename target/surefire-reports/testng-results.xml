@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="44161" started-at="2021-09-22T17:59:57 IST" finished-at="2021-09-22T18:00:41 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="44161" started-at="2021-09-22T17:59:57 IST" finished-at="2021-09-22T18:00:41 IST">
+      <class name="com.nopcommerce.testCases.TC001_LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC001_LoginTest@50a638b5]" name="setUp" is-config="true" duration-ms="15177" started-at="2021-09-22T17:59:57 IST" finished-at="2021-09-22T18:00:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC001_LoginTest@50a638b5]" name="loginTest" duration-ms="28255" started-at="2021-09-22T18:00:12 IST" finished-at="2021-09-22T18:00:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="captureScreenhot(org.testng.ITestResult)[pri:0, instance:com.nopcommerce.testCases.TC001_LoginTest@50a638b5]" name="captureScreenhot" is-config="true" duration-ms="2" started-at="2021-09-22T18:00:40 IST" finished-at="2021-09-22T18:00:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TC001_LoginTest.loginTest()[pri:0, instance:com.nopcommerce.testCases.TC001_LoginTest@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenhot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC001_LoginTest@50a638b5]" name="tearDown" is-config="true" duration-ms="651" started-at="2021-09-22T18:00:40 IST" finished-at="2021-09-22T18:00:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC001_LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
